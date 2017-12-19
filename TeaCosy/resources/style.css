@@ -1,0 +1,162 @@
+/*Universal*/
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity:0.9;
+}
+
+
+/*Header Section*/
+header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+
+.logo {
+	display: flex;
+	height: 50px;
+	padding-left: 10px;
+	flex-grow: 1;
+}
+
+.logo img {
+	height: 50px;
+	width: auto;
+}
+
+nav span {
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+/*Mission*/
+
+.main {
+	margin: auto;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+#mission {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+	height: 700px;
+	padding-top: 70px;
+	width: 1200px;
+	margin: auto;
+}
+
+#mission .content {
+	background-color: black;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+h2, h3, h4 {
+	margin: 0;
+	padding: 10px;
+}
+
+/*Featured Tea*/
+
+#featured-tea {
+	text-align: center;
+}
+
+.item img {
+	height: 200px;
+	width: 300px;
+	display: block;
+}
+
+.item {
+	padding: 10px;
+}
+
+.item span {
+	display: block;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#featured-tea h2 {
+	padding-top: 70px;
+}
+
+.flex-container.items {
+	padding-bottom: 50px;
+}
+
+/*Locations*/
+
+#locations {
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	text-align: center;
+	color: seashell;
+	padding-top: 70px;
+	margin: auto;
+}
+
+#locations h2 {
+	padding-bottom: 15px;
+}
+
+#locations .flex-container {
+	margin: auto;
+	width: 1080px;
+}
+
+.location {	
+	display: flex;
+	flex-direction: column;
+	flex-basis: 300px;
+	justify-content: center;
+	background-color: black;
+	opacity: 0.8;
+	text-align: center;
+	padding: 10px;
+	margin: 5px 20px;
+}
+	
+/*Contact*/
+
+#contact {
+	height: 200px;
+	width: auto;
+	text-align: center;
+}
+
+/*footer*/
+
+footer {
+	padding-left: 20px;
+}
+
+
+
+
+
